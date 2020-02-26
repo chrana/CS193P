@@ -13,6 +13,8 @@
 		CC8AB791240060C20022452C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8AB78F240060C20022452C /* Main.storyboard */; };
 		CC8AB793240060C30022452C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8AB792240060C30022452C /* Assets.xcassets */; };
 		CC8AB796240060C30022452C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8AB794240060C30022452C /* LaunchScreen.storyboard */; };
+		CC8AB79F240466670022452C /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AB79E240466670022452C /* Concentration.swift */; };
+		CC8AB7A12404671D0022452C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AB7A02404671D0022452C /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CC8AB792240060C30022452C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC8AB795240060C30022452C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC8AB797240060C30022452C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8AB79E240466670022452C /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		CC8AB7A02404671D0022452C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				CC8AB79D240060E20022452C /* Supporting Files */,
 				CC8AB78F240060C20022452C /* Main.storyboard */,
+				CC8AB79E240466670022452C /* Concentration.swift */,
+				CC8AB7A02404671D0022452C /* Card.swift */,
 				CC8AB797240060C30022452C /* Info.plist */,
 			);
 			path = Concentration;
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC8AB78E240060C20022452C /* ViewController.swift in Sources */,
+				CC8AB79F240466670022452C /* Concentration.swift in Sources */,
+				CC8AB7A12404671D0022452C /* Card.swift in Sources */,
 				CC8AB78A240060C20022452C /* AppDelegate.swift in Sources */,
 				CC8AB78C240060C20022452C /* SceneDelegate.swift in Sources */,
 			);
